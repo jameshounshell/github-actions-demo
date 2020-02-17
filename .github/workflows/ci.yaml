@@ -32,17 +32,17 @@ on:
 name: Simple CI
 
 jobs:
-  deploy:
-    name: Deploy
+  ci:
+    name: ci
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
+    - name: checkout
       uses: actions/checkout@v2
 
     - name: unit test
       run: |
-        make unit
+        make dunit
 
     - name: build container
       id: build-image
