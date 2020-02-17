@@ -1,5 +1,7 @@
 Github Actions Demo
 ===================
+![Simple CI](https://github.com/jameshounshell/github-actions-demo/workflows/Simple%20CI/badge.svg)
+
 This repo demonstrates a simple CI build using Makefile and Github Actions  
 All of the operations of a common CI can be executed locally using Makefile  
 The Make targets are then chained together in the Github Actions  
