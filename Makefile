@@ -58,6 +58,7 @@ dbuild:
 # smoke test to see if the server is running
 dcurl:
 	curl localhost:5000/
+	@printf "\n"
 
 # check the flask logs
 dlogs:
@@ -68,3 +69,5 @@ sleep:
 
 # do a fresh build and run smoke test
 dtest: dkill dbuild drun sleep dlogs dcurl
+	@docker rm -f voteshield | true # cant run dkill twice
+	@echo Finished Container Test
