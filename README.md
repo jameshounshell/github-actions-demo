@@ -10,7 +10,7 @@ The Make targets are then chained together in the Github Actions
 
 The demo app
 ------------
-`/app` contains a simple REST API flash app that doles out the data in `/data`
+`/app` contains a simple REST API app (Python Flask) that doles out the data in `/data`
 
 Example API endpoints:
 - `/things`: List all things
@@ -20,8 +20,8 @@ Example API endpoints:
 
 Local Development and Testing
 -----------------------------
-All development commands can be found in the `Makefile`
-Use `pipenv` to wrap virtualenv/pip/pyenv
+All development commands can be found in the `Makefile`  
+`pipenv` is used to wrap virtualenv/pip/pyenv  
 
 - requires: 
     - `make` - should be installed on OSX, Linux, WSL by default
@@ -35,15 +35,16 @@ Use `pipenv` to wrap virtualenv/pip/pyenv
     - `make unit`
 - Update/Install packages with Pipenv
     - `pipenv install <your_package_here>`
-- After changing/upgrading python packages update requirements.txt
+- After changing/upgrading python packages, update requirements.txt
     - `make freeze`
 
 
 
 Container Build and Testing
 ---------------------------
+**tl:dr**: run `make dtest` to to build, run, smoke test, then kill the container  
 All build test commands can be found in the `Makefile`  
-tl:dr run `make dtest` to to build, run, test, then kill the container
+WARNING: If using Windows you must use WSL2 for correct networking between WSL and Docker for Windows
 
 - About the container
     - This container is based on hub.docker.com/_/python
