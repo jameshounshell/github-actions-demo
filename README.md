@@ -73,3 +73,12 @@ TODO
 ----
 - Extend this example using an AWS workflow that pushes to AWS ECR and updates an AWS Task Definition
     - for example: https://github.com/actions/starter-workflows/blob/master/ci/aws.yml
+
+
+
+Credits
+-------
+This project was created to complete to a interview take-home assignment  
+I have embelished a bit and published it to display my code style and tastes  
+- The original assignment can be viewd here: https://github.com/Voteshield/devops-exercise
+- The instructions for the assginment are here: https://github.com/Voteshield/devops-exercise/blob/master/INSTRUCTIONS.md
