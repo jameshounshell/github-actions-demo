@@ -48,7 +48,7 @@ WARNING: If using Windows you must use WSL2 for correct networking between WSL a
 
 - About the container
     - This container is based on hub.docker.com/_/python
-    - The Dockerfile can be found at [./Dockerfile](./Dockefile)
+    - The Dockerfile can be found at [./Dockerfile](./Dockerfile)
     - Instead of using the Flask development server, we serve the app using Gunicorn with 4 workers
 - Run the unit tests in a container
     - `make dunit`
