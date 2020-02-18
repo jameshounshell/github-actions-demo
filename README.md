@@ -73,8 +73,7 @@ TODO
 ----
 - Extend this example using an AWS workflow that pushes to AWS ECR and updates an AWS Task Definition
     - for example: https://github.com/actions/starter-workflows/blob/master/ci/aws.yml
-
-
+- Semantically Version the application, create release branches, publish the docker image tagged with the semver
 
 Credits
 -------
