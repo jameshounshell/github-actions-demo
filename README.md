@@ -79,5 +79,5 @@ Credits
 -------
 This project was created to complete to a interview take-home assignment  
 I have embelished a bit and published it to display my code style and tastes  
-- The original assignment can be viewd here: https://github.com/Voteshield/devops-exercise
-- The instructions for the assginment are here: https://github.com/Voteshield/devops-exercise/blob/master/INSTRUCTIONS.md
+- The original assignment can be viewed here: https://github.com/Voteshield/devops-exercise
+- The instructions for the assignment are here: https://github.com/Voteshield/devops-exercise/blob/master/INSTRUCTIONS.md
